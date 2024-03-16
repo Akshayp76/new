@@ -1,0 +1,4 @@
+{
+  "base_url" : "http://localhost/captcha-alternative/",
+  "base_location" : "/var/www/html/captcha-alternative/" 
+}

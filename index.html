@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha-Redesign-For-Visually-Impaired</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+   
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+
+    <div class="fadeIn first">
+      <img src="assets/icons/icon.jpeg" id="icon" alt="User Icon" />
+    </div>
+
+    <form>
+      <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+      <div class="row">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="column">
+            <a href="backend/captcha_pages/simple.php">
+                <img src="assets/icons/simple_audio.png" title="Simple Audio Captcha" alt="Simple Audio Captcha" height="50px" width="30px">
+            </a>
+        </div>
+        <div class="column">
+            <a href="backend/captcha_pages/questionnaire.php">
+                <img src="assets/icons/MCQ.png" title="MCQ Captcha" alt="MCQ Captcha" height="50px" width="30px">
+            </a>
+        </div>
+        <div class="column">
+            <a href="backend/captcha_pages/word_chain.php">
+                <img src="assets/icons/word_chain.jpeg" title="Word Chain Captcha" alt="Word Chain Captcha" height="50px" width="30px">
+            </a>
+        </div>
+        <div class="column">
+            <a href="backend/captcha_pages/simple_pressure.php">
+                <img src="assets/icons/simple_pressure.jpg" title="Simple Pressure Captcha" alt="Simple Pressure Captcha" height="50px" width="30px">
+            </a>
+        </div>
+        <div class="column">
+            <a href="backend/captcha_pages/short_press_pressure.php">
+                <img src="assets/icons/short_press.jpg" title="Short Pressure Captcha" alt="Short Pressure Captcha" height="50px" width="30px">
+            </a>
+        </div>
+        <div class="column">
+            <a href="backend/captcha_pages/long_press_pressure.php">
+                <img src="assets/icons/long_press.jpg" title="Long Pressure Captcha" alt="Long Pressure Captcha" height="50px" width="30px">
+            </a>
+        </div>
+      </div>
+      <input type="submit" class="fadeIn fourth" value="Log In">
+    </form>
+
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Forgot Password?</a>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

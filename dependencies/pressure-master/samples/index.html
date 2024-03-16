@@ -1,0 +1,49 @@
+<html>
+  <head>
+   <script>
+  function overlay()
+	{
+    	var cookieValue = document.getElementById("el2").value;    
+    	alert("see" + cookieValue);
+	}
+
+  </script>
+    <style>
+      .element{
+        width: 200px;
+        padding: 20px;
+        background: #0080FF;
+        margin-bottom: 10px;
+        color: white;
+        cursor: pointer;
+      }
+      div[id*='jquery']{
+        background: #72238e;
+      }
+      h3{
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+      img{
+        width: 100%;
+      }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+     <h1>Pressure Tests</h1>
+   
+    <h3>Change Pressure (target ONLY Force Touch | Mac, Magic Trackpad 2)</h3>
+    <div class="element" id="el2" value="0">0</div>
+            <div id="player"></div>
+    <button  id = "btn" >submit</button>
+               <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="../dist/pressure.js"></script>
+    <script type="text/javascript" src="../dist/jquery.pressure.js"></script>
+   <script type="text/javascript" src="example.js"></script>
+   
+  </body>
+  
+</html>
